@@ -1,0 +1,7 @@
+---
+SQLType: "SQLITE"
+host: "host"
+port: 3306
+dataBase: "database"
+userName: "username"
+password: "password"

@@ -1,0 +1,23 @@
+---
+GCoreCMD:
+  description: "A test command"
+  syntax: "/testCmd"
+  permission: "permission"
+  noPermission: "You don't have permission to do that !"
+  cooldownInSeconds: 0
+  isOnCooldown: ""
+  enabled: true
+  subCommands:
+    database:
+      aliases:
+      - "database"
+      - "databases"
+      - "db"
+      description: "Accéder à la database."
+      syntax: "/testcmd db"
+      permission: "perm"
+      noPermission: "You don't have permission to do that !"
+      cooldownInSeconds: 0
+      enabled: true
+noPermission: "You don't have permission to do that !"
+isOnCooldown: "You cannot use this now ! Try again in %cooldown%."
